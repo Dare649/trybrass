@@ -16,6 +16,7 @@ import Ios from "@/public/logo/ios";
 import Android from "@/public/logo/android";
 import { setVid } from "@/redux/features/vidSlice";
 import { toggleFoot } from "@/redux/features/footSlice";
+import Link from "next/link";
 
 
 
@@ -64,7 +65,7 @@ export default function Home() {
             <h1 className="first-letter:capitalize font-bold lg:text-7xl sm:text-4xl">banking that <br />works for your <br />business</h1>
             <p className="mt-10 lg:text-xl sm:text-md font-medium">Do more with a business account that comes with top-end financial tools and integrations to help grow your business.</p>
             <div className="mt-10 lg:flex sm:hidden">
-              <button className="text-white-1 bg-green-1 rounded-lg py-5 px-8 first-letter:capitalize">open an account in 10 minutes</button>
+              <Link href={'pages/auth/signup'} className="text-white-1 bg-green-1 rounded-lg py-5 px-8 first-letter:capitalize">open an account in 10 minutes</Link>
             </div>
             <div className="w-full lg:hidden sm:flex fixed bottom-0 z-50">
               <button className="text-white-1 bg-green-1 py-5 px-8 first-letter:capitalize">open an account in 10 minutes</button>
@@ -365,7 +366,7 @@ export default function Home() {
               your business
             </p>
             <div className="mt-10">
-              <button className="text-white-1 bg-green-1 rounded-lg py-5 px-8 first-letter:capitalize">get started in minutes</button>
+              <Link href={'pages/auth/signup'} className="text-white-1 bg-green-1 rounded-lg py-5 px-8 first-letter:capitalize">get started in minutes</Link>
             </div>
           </div>
         </div>

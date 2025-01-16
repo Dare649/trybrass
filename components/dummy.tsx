@@ -254,10 +254,12 @@ export const snav = [
     },
     {
         id: 7,
-        head: 'login'
+        head: 'login',
+        link: 'pages/auth/login'
     },
     {
         id: 8,
-        head: 'open an account'
+        head: 'open an account',
+        link: 'pages/auth/signup'
     },
 ]
