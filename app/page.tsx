@@ -67,9 +67,7 @@ export default function Home() {
             <div className="mt-10 lg:flex sm:hidden">
               <Link href={'pages/auth/signup'} className="text-white-1 bg-green-1 rounded-lg py-5 px-8 first-letter:capitalize">open an account in 10 minutes</Link>
             </div>
-            <div className="w-full lg:hidden sm:flex fixed bottom-0 z-50">
-              <button className="text-white-1 bg-green-1 py-5 px-8 first-letter:capitalize">open an account in 10 minutes</button>
-            </div>
+            
             <div className="grid grid-cols-2 lg:mt-28 sm:mt-20 gap-5 w-full text-left">
               <a href=" https://techcrunch.com/2021/10/21/ventures-platform-hustle-fund-back-nigerian-fintech-brass-in-1-7m-round/" target="_blank" rel="noopener noreferrer" >
                 <TechCrunch />

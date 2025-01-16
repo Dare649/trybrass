@@ -66,11 +66,7 @@ const Header = () => {
         <div className="w-full lg:hidden sm:flex">
     <div className="w-full relative">
         {/* Fixed Button at the Bottom */}
-        <div className="w-full fixed bottom-0 z-30">
-            <Link href={'/pages/auth/signup'} className="text-white-1 bg-green-1 py-5 px-8 first-letter:capitalize">
-                open an account in 10 minutes
-            </Link>
-        </div>
+        
 
         {/* Menu at the Top, which should cover the button when opened */}
         <div className="w-full bg-black-2 z-50 p-5 fixed top-0">
@@ -131,6 +127,9 @@ const Header = () => {
             <p className="text-center text-white-1 text-xs leading-relaxed tracking-wide">
                 Introducing Brass Payroll: The Ultimate <br /> Payroll Solution for Your Business
             </p>
+        </div>
+        <div className="w-full fixed bottom-0 z-50">
+            <button className="text-white-1 bg-green-1 py-5 px-8 first-letter:capitalize w-full">open an account in 10 minutes</button>
         </div>
     </div>
 </div>
